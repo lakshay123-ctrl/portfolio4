@@ -1,0 +1,84 @@
+body {
+   
+   /*background-color : chocolate;*/
+   background-image:url("background.jpg");
+   background-size: 700px;
+   
+
+      
+}
+
+
+h1 {
+    color: white;
+    text-shadow: 5px 5px 5px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size:40px;
+      
+}
+
+.header {
+    text-align:  center;
+    text-shadow: 5px 5px 5px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:yellow;
+    margin-top:50px;
+    padding:20px;
+    border:10px solid;
+}
+
+
+.grid  {
+    display : flex;
+    flex-wrap:wrap;
+    justify-content : space-evenly; 
+    text-shadow: 5px 5px 5px green;
+    color: white;
+  text-shadow: 5px 5px 5px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+.footer {
+    display : flex;
+    justify-content : flex-end;
+   
+}
+
+p,h2{
+    text-align:  center;
+    color: yellow;
+    text-shadow: 5px 5px 5px black, 0 0 25px blue, 0 0 5px green;
+}
+
+.footer img{
+    border-radius: 52%;
+    box-sizing:border-box;
+    
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:cyan;
+}
+
+.icon{
+  position:relative; 
+  opacity:0.5; 
+}
+.icon p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;
+}
+
+.icon:hover p{
+ opacity:1;
+}
+
+.icon:hover{
+    border:5px solid yellow;
+    opacity:2;
+}
